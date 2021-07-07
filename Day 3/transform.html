@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width:300px;
+            height: 100px;
+            background-color: lavender;
+            border: 4px solid violet;
+            -ms-transform: translate(50px,100px);
+            transform: translate(50px,100px);
+        }
+        div#mydiv{
+           -ms-transform: rotate(45deg);
+            transform: rotate(45deg);}
+        div#mydiv1{
+            -ms-transform: scale(0.5,0.5);  /*overwrites rotate*/
+            transform: scale(0.5,0.5);
+        }
+        div#mydiv2{
+            -ms-transform: skewY(20deg);  /*overwrites rotate*/
+            transform: skewY(20deg);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>2D transform</h1>
+    <div id="mydiv">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper mi eros, non faucibus justo placerat luctus. 
+    </div>
+    <div id="mydiv1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper mi eros, non faucibus justo placerat luctus. 
+    </div>
+    <div id="mydiv2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper mi eros, non faucibus justo placerat luctus. 
+    </div>
+</body>
+</html>
