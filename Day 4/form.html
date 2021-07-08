@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        form{
+            position: absolute;
+            right:35%;
+            align-content: center;
+            padding:4px;
+            line-height: 50px;
+            font-size: 18px;
+            width: 30%;
+            text-align: left;
+            box-align:center;
+            background-color: lightblue;
+        }
+        h3{
+            text-align: center;
+        }
+        
+    </style>
+    <script>
+        function formsub(){
+            var namevar=document.getElementById("name");
+            console.log(namevar);
+            
+        }
+    </script>
+</head>
+<body>
+    <H3>Register</H3>
+
+    <form>
+        Name<input type="text" name="Namet1" id="name"><br>
+        EMail<input type="email" id="mail"><br>
+        Adhar Number<input type='text' id="adhar"><br>
+        Password<input type="password" name="t4" id="pass"><br>
+        Gender: Male<input type='radio' value="M" id="M"> Female<input type='radio' value='F' id="F"><br>
+        Birth date <input type="date" id="date">
+        <br><input type="submit" value="Submit" onclick="formsub()">
+        <input type="reset" value="Cancel">
+    </form>
+</body>
+</html>

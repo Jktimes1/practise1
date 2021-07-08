@@ -71,3 +71,7 @@ body,html {
         bottom:40px;
         font-size: 18px;
     }
+    a:hover{
+        color: red;
+    }
+    
