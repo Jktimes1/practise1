@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="d1">
+
+    </p>
+    
+    <p id='para1'></p>
+    <script>
+        var two=2,ten=10;
+        var result=two+ten;
+        var linebreak="<br>";
+        document.write("two plus ten =");
+        document.write(result);
+        document.write(linebreak);
+        document.write("ten * ten =");
+        result=ten*ten;
+        document.write(result);
+        function myfun(p1,p2){
+            return p1*p2;
+        }document.getElementById("para1").innerHTML=myfun(4,3);
+
+        var m=myfun2(4,3);
+        document.getElementById("d1").innerHTML=m;
+        function myfun2(a,b){
+            return b-a;
+        }
+    </script>
+</body>
+</html>
