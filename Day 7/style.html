@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .bld{
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
     <p id="mypara">Hello</p>
@@ -14,8 +20,11 @@
     function setStyle(){
         var elem= document.getElementById('mypara');
         elem.style.color='red';
-        elem.style.fontWeight=20;
+        //elem.style.fontWeight=20;
         elem.style.background='lightblue';
+
+        //adding by adding class to element
+        elem.className ='bld';
     }
 </script>
 </html>
