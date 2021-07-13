@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function func1(){
+        alert(screen.width+' x '+screen.height);
+        alert("Available height width "+screen.availWidth+' x '+screen.availHeight);
+        alert("screen color depth "+ screen.colorDepth);
+        alert("screen pixel depth "+ screen.pixelDepth);
+        alert("The URL of this pafe is"+ location.href);
+     //   window.location.assign("E:\\Times\\day 01\\practise1\\Day 7\\formvalidation.html"); // goto another page
+        alert("Number of webpages accessed"+ history.length);
+        //check online-offline (connection status)
+        if(navigator.onLine){
+            alert("Application is online");
+        }
+        else{
+            alert("App is offline");
+        }
+        
+    }
+</script>
+
+<body>
+    <button type="button" onclick="func1();">button</button>
+</body>
+</html>

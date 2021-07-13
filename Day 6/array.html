@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id='demo'>
+
+    </p>
+    <p id='demo1'>
+    </p>
+    <p id="demo3"></p>
+
+    <script>
+        const cars=["bmw","jaguar","alto"];
+        const user=['a','b','c','d','e'];
+        const marks={
+            'a':40,
+            'b':30,
+            'c':80,
+            'd':50,
+            'e':10
+        }
+        const sortbymarks= user.sort(function(a,b){
+            return marks[a]-marks[b];
+        });
+        const c=cars.sort(); //sorting 
+        document.getElementById("demo").innerHTML=c;
+        document.getElementById("demo1").innerHTML=sortbymarks;
+        
+        //map method
+        const num=[49,2,4,2,45];
+        const n=num.map(myFunction);
+        document.getElementById("demo3").innerHTML=n;
+        function myFunction(value,index,array){
+            return value*2;
+        }
+    </script>
+</body>
+</html>
