@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <strong>
+        MAKING OBJECT(string) TO JSON AND JSON TO OBJECT(string)<br>
+    </strong>
+    <script>
+        var json1=`{
+            "book":{
+                "name":"harry potter",
+                "author":"J.K.Rowling",
+                "year":2000,
+                "genre":"Fatasy",
+                "bestseller":true
+            }
+        }`;
+        var obj =JSON.parse(json1)
+        console.log(obj);
+
+
+        
+        var j2=`{"name":"Navni", "age":22, "country":"India"}`;
+        var obj= JSON.parse(j2);
+        document.write(obj.name);
+
+        var a=JSON.stringify(obj);
+        document.write(a);
+        console.log(a);
+        console.log(obj);
+    </script>
+    <p>
+        <strong>Note:</strong>Please check console
+    </p>
+</body>
+</html>

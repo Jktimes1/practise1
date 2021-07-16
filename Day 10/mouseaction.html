@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        p{
+            padding: 20px;
+            font: 20px sans-serif;
+            background: khaki;
+        }
+        p.highlight{
+            background: lawngreen;
+        }
+    </style>
+    <script>
+        $(document).ready(function(){
+            $("p").dblclick(function(){
+                $(this).slideUp();
+            });
+            // $("p").hover(function(){
+            //     $(this).addClass("highlight");
+            // },                                                           //HOVER AND MOUSE ENTER MOUSE LEAVE WORK ALMOST SAME
+            // function(){
+            //     $(this).removeClass("highlight");
+            // });
+            $("p").mouseenter(function(){
+                $(this).addClass("highlight");
+            });
+            $("p").mouseleave(function(){
+                $(this).removeClass("highlight");
+            })
+        });
+    </script>
+</head>
+<body>
+    <p>Helllllllllooooooooo</p>
+    <p>DOuble click to see us slide up</p>
+    <p>i m jarvis</p>
+</body>
+</html>
