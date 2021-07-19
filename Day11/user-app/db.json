@@ -14,6 +14,18 @@
       "firstname": "Ram",
       "age": "20",
       "id": 3
+    },
+    {
+      "firstname": "Ritu",
+      "age": "20",
+      "date": "20-07-2021",
+      "id": 4
+    },
+    {
+      "firstname": "Ram",
+      "age": "20",
+      "date": "2021-07-20",
+      "id": 5
     }
   ]
 }
