@@ -1,9 +1,13 @@
 import { useState } from "react"
 export default function Userform(){
     const [userform,setUserform]=useState({firstname:"Ram"});
+    const handleEvent= function (event){
+        console.log(event);
+        setUserform({...userform, firstname:event.target.value})
+    }
     return(
         <div><h3>Create User</h3>
-        <input value={userform.firstname} type="text" />
+        <input value={userform.firstname} onChange={handleEvent} />
 
         </div>
     )
