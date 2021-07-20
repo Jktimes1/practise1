@@ -19,10 +19,10 @@ export default function Userform(){
         })
     }
     return(
-        <div><h3>Create User</h3>
-        <input name='firstname' value={userform.firstname} onChange={handleEvent} />
-        <input name='age' value={userform.age} onChange={handleEvent} type="Number"></input>
-        <input name='date' value={userform.date} onChange={handleEvent} type="date" />
+        <div className='form-group'><h3>Create User</h3>
+        <label>Name</label><input name='firstname' className='form-control'value={userform.firstname} onChange={handleEvent} />
+        <label >Age</label><input name='age' value={userform.age} className='form-control' onChange={handleEvent} type="Number"></input>
+        <label >Date </label><input name='date' value={userform.date} className='form-control' onChange={handleEvent} type="date" />
         <button onClick={save}>Save</button>
         </div>
     )
