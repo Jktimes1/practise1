@@ -1,31 +1,22 @@
 {
   "users": [
     {
-      "name": "Navni",
-      "location": "banglore",
+      "firstname": "Ram",
+      "age": "20",
+      "date": "2021-07-01",
       "id": 1
     },
     {
-      "name": "Naomi",
-      "location": "banglore",
+      "firstname": "Lilly",
+      "age": "22",
+      "date": "2021-07-27",
       "id": 2
     },
     {
-      "firstname": "Ram",
-      "age": "20",
+      "firstname": "Niaomi",
+      "age": "14",
+      "date": "2021-07-07",
       "id": 3
-    },
-    {
-      "firstname": "Ritu",
-      "age": "20",
-      "date": "20-07-2021",
-      "id": 4
-    },
-    {
-      "firstname": "Ram",
-      "age": "20",
-      "date": "2021-07-20",
-      "id": 5
     }
   ]
 }
