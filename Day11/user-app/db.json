@@ -7,16 +7,25 @@
       "id": 1
     },
     {
-      "firstname": "Lilly",
-      "age": "22",
-      "date": "2021-07-27",
-      "id": 2
-    },
-    {
       "firstname": "Niaomi",
       "age": "14",
       "date": "2021-07-07",
       "id": 3
+    },
+    {
+      "firstname": "ady",
+      "age": "12",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "undefined": "css",
+      "id": 6
+    },
+    {
+      "firstname": "New",
+      "age": "22",
+      "date": "2021-07-20",
+      "skill": "css",
+      "id": 7
     }
   ]
 }
