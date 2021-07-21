@@ -26,6 +26,116 @@
       "date": "2021-07-20",
       "skill": "css",
       "id": 7
+    },
+    {
+      "firstname": "Ram7",
+      "age": "29",
+      "date": "2021-07-20",
+      "skill": "JS",
+      "id": 8
+    },
+    {
+      "firstname": "Ram",
+      "age": "20",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "id": 9
+    },
+    {
+      "firstname": "Ramiiiiiiiiiiiiiiiiiiii",
+      "age": "20",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "id": 10
+    },
+    {
+      "firstname": "Ramiiiiiiiiiiiiiiiiiiii",
+      "age": "20",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "id": 11
+    },
+    {
+      "firstname": "Raima",
+      "age": "24",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "id": 12
+    },
+    {
+      "firstname": "Raima",
+      "age": "24",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "id": 13
+    },
+    {
+      "firstname": "kaa",
+      "age": "28",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "id": 14
+    },
+    {
+      "firstname": "kaa",
+      "age": "28",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "id": 15
+    },
+    {
+      "firstname": "karma",
+      "age": "202",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "id": 16
+    },
+    {
+      "firstname": "karma",
+      "age": "202",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "id": 17
+    },
+    {
+      "firstname": "karma",
+      "age": "202",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "id": 18
+    },
+    {
+      "firstname": "Ram",
+      "age": "20",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "id": 19
+    },
+    {
+      "firstname": "Ram",
+      "age": "20",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "id": 20
+    },
+    {
+      "firstname": "Ram",
+      "age": "20",
+      "date": "2021-07-20",
+      "skill": "Html",
+      "id": 21
+    },
+    {
+      "firstname": "Ram",
+      "age": "200",
+      "date": "2021-07-20",
+      "skill": "Js",
+      "id": 22
     }
+  ],
+  "skills": [
+    "Css",
+    "Html",
+    "Js"
   ]
 }
